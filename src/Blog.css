@@ -1,0 +1,22 @@
+.label-title-uppercase {
+    text-transform: capitalize;
+    
+  }
+  .label-title-lowercase {
+    text-transform: lowercase;
+    
+  }
+  .text-title-case {
+    text-transform: capitalize;
+  }
+  .sentence-case::first-letter {
+    text-transform: uppercase;
+  }
+  .label-sentence-case::first-letter {
+    text-transform: uppercase;
+  }
+  
+
+  .label-sentence-case {
+    text-transform: lowercase;
+  }
