@@ -69,7 +69,7 @@ function BlogData({ allBlogs }) {
   };
 
   return (
-    <div className="max-w-screen-xl mx-auto px-5 bg-sky-300 relative">
+    <div className="max-w-screen-xl mx-auto px-5  relative text-gray-800  bg-gray-50"   >
       <div className="flex flex-col items-center absolute top-0">
      
       </div>
@@ -78,9 +78,9 @@ function BlogData({ allBlogs }) {
           <thead>
             <tr>
               <th className="p-2 border border-neutral-200">Title</th>
-              <th className="p-2 border border-neutral-200">Author</th>
+              <th className="p-2 border border-neutral-200  ">Author</th>
               <th className="p-2 border border-neutral-200">Content</th>
-              <th className="p-2 border border-neutral-200">Comment</th>
+              <th className="p-2 border border-neutral-200 ">Comment</th>
             </tr>
           </thead>
           <tbody>
@@ -107,7 +107,7 @@ function BlogData({ allBlogs }) {
                     <button
                       onClick={() => handleCommentSubmit(item.id)}
                       type="button"
-                      className="w-auto inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-500 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ml-3"
+                      className="w-auto inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-green-500 text-base font-medium text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ml-3"
                     >
                       Submit
                     </button>

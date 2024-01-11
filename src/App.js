@@ -1,24 +1,17 @@
-//  
+//
 
-
-import Header from './Header'
-import React from 'react'
-import Blog from './Blog'
-import BlogData from './BlogData'
-
+import Header from "./Component/Header.js/Header";
+import React from "react";
+import Blog from "./Component/Blog/Blog";
+import BlogData from "./Component/Blog/BlogData";
 
 function App() {
   return (
-    <div >
+    <div>
       <Header></Header>
- <Blog></Blog> 
-
-
-
-
+      <Blog></Blog>
     </div>
-  
-  )
+  );
 }
 
-export default App
+export default App;
